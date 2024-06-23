@@ -4,3 +4,10 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
+kube-apiserver:v1.17.4
+kube-controller-manager:v1.17.4
+kube-scheduler:v1.17.4
+kube-proxy:v1.17.4
+pause:3.1
+etcd:3.4.3-0
+coredns:1.6.5
